@@ -1,0 +1,51 @@
+{
+  "name": "http-deployer-client",
+  "version": "1.0.0",
+  "description": "Web Client for http-deployer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode=development --colors --progress --hot --inline",
+    "build": "webpack --colors --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horat1us/http-deployer-client.git"
+  },
+  "keywords": [
+    "http-deployer",
+    "client",
+    "environment"
+  ],
+  "author": "Alexander <horat1us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horat1us/http-deployer-client/issues"
+  },
+  "homepage": "https://github.com/Horat1us/http-deployer-client#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "classnames": "^2.2.6",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "source-map-loader": "^0.2.4",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
